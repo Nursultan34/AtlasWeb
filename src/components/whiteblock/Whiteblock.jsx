@@ -29,8 +29,8 @@ export const Whiteblock = () => {
           <h2>Сертификаты качества</h2>
           
           <div className='image'>
-            <img src={certificate1} alt="" srcset="" />
-            <img src={certificate2} alt="" srcset="" />
+            <img className='img1' src={certificate1} alt="" srcset="" />
+            <img className='img2' src={certificate2} alt="" srcset="" />
           </div>
 
           
