@@ -8,6 +8,7 @@ import { Whiteblock } from "./components/whiteblock/Whiteblock";
 import { Deliveryblock } from "./components/delivery/Deliveryblock";
 import {Routes, Route} from 'react-router-dom'
 import Maps from './components/Maps/Maps';
+import Headfoot from "./components/Headfoot/Headfoot";
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Whiteblock/>
       <Deliveryblock/>
       <Maps/>
+      <Headfoot/>
     </div>
 
 
