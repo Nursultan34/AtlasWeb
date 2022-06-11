@@ -1,51 +1,89 @@
 import React from 'react'
 import './Card.css'
 import image from '../../../assets/image2.png'
+import ellipse from '../../../assets/12.png'
 
-function CardSecond() {
-  return (
-    <div>
-       
-        <div className='main'>
-            <h1 className='h1'>A-110</h1>
-            <h2 className='h32'>АВТОМАТИЧЕСКИЙ СТАНОК ДЛЯ РЕЗКИ ПВХ И АЛЮМИНИЕВЫХ ПРОФИЛЕЙ<p className='p-title'>( С НИЖЕЙ ПОДАЧЕЙ ДИСКА)</p></h2>
-            <div>
-                <div className='title'>
-                    <h3 className='h3'>Описание</h3>
-                    <h3 className='h36'>Технические характеристики</h3>
+function CardSecond(props) {
+    return (
+        <div className='big-block'>
+            <div className="block">
+                <div class="block-img">
+                    <img src={image} width={330} height={600} alt="machine" />
                 </div>
-                <div className='container'>
-                     <div className='title2'>
-                     <td className='p-9'>Стандартное напряжение</td>
-                        <p className='p-7'> Применяется для резки </p>
-                        <p className='p-92'>Частота </p>
-                        <p className='p-8'>профилей из пвх и алюминия</p>
-                        <p className='p-7'>Возможна резка с поворотом на </p>
-                        <p className='p-7'>180°</p>
-                        <p className='p-7'>Имеется особые стопоры для углов </p>
-                        <p className='p-7'>45°- 30° - 22,5°- 15°- 0°- 15°- 22,5°- 30°- </p>
-                        <p className='p-7'>45°</p>
-                        <p className='p-7'>Диаметр пилы 400 мм</p>
+                <div className="block-info">
+                    <div className="title">
+                        <p className='h1'>A-110</p>
+                        <p className='h32'>АВТОМАТИЧЕСКИЙ СТАНОК ДЛЯ РЕЗКИ ПВХ И АЛЮМИНИЕВЫХ ПРОФИЛЕЙ<p className='p-title'> (С НИНЖЕЙ ПОДАЧЕЙ ДИСКА)</p></p>
+                    </div>
+
+                    <div className="table">
+                        <div class="table1">
+                            <p>Описание</p> 
+                            <table>
+                                <td>
+                                    <tr><img src={ellipse} className="ellipse"></img>Применяется для резки профилей из пвх и алюминия</tr>
+
+
+                                    <tr> <img src={ellipse} className="ellipse"></img>Возможна резка с поворотом на 180°</tr>
+
+                                    <tr ><img src={ellipse} className="ellipse"></img>Имеется особые стопоры для углов 45°- 30° - 22,5°- 15°- 0°- 15°- 22,5°- 30°- 45°</tr>
+
+                                    <tr><img src={ellipse} className="ellipse"></img>Диаметр пилы 400 мм</tr>
+
+                                    <tr><img src={ellipse} className="ellipse"></img>Возможна регулировка скорости поступательного движения пилы</tr>
+
+                                </td>
+
+                            </table>
+                        </div>
+                        <div class="table2">
+                           <p>Технические характеристики</p> 
+                            <table>
+                                <tr>
+                                    <td>Стандартное напряжение</td>
+                                    <td>380 V</td>
+                                </tr>
+                                <tr>
+                                    <td>Частота </td>
+                                    <td>50 Hz</td>
+                                </tr>
+                                <tr>
+                                    <td>Суммарная мощность </td>
+                                    <td>1.1 Kw</td>
+                                </tr>
+                                <tr>
+                                    <td>Давление воздуха </td>
+                                    <td>6 bar</td>
+                                </tr>
+                                <tr>
+                                    <td>Потребление воздуха </td>
+                                    <td>6 It/min</td>
+                                </tr>
+                                <tr>
+                                    <td>Ширина машины  </td>
+                                    <td>660 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Длина машины  </td>
+                                    <td>800 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Высота машины </td>
+                                    <td>1270 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес машины </td>
+                                    <td>150 kg</td>
+                                </tr>
+                            </table>
+                        </div>
                         
-                        <p className='p-7'>Возможна регулировка скорости </p>
-                        <p className='p-7'>поступательного движения пилы</p>
-                        
-                              
-                               <td></td>
-                               <td></td>
-                               <td></td>
-                               <td></td>
-                           
-                     </div>  
-                
+                    </div>
                 </div>
             </div>
+
         </div>
-        <div className='img'>
-            <img src={image} alt="" />
-        </div>
-    </div>
-  )
+    )
 }
 
 export default CardSecond
