@@ -12,7 +12,7 @@ import fives from '../imges/5.png'
 
 export const Mainblack = () => {
   return (
-    <div>
+    <div id='main'>
       <div className="black-block">
         <div className="b-container">
 

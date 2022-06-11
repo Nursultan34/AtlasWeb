@@ -5,7 +5,7 @@ import certificate2 from '../imges/certificate2.png'
 
 export const Whiteblock = () => {
   return (
-    <div className='white-block'>
+    <div className='white-block' id='whiteblock'>
       <div className="white-container">
         <div className="company">
         <div>

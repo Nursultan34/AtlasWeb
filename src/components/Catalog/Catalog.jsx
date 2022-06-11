@@ -16,7 +16,7 @@ function Catalog() {
     const arr = [{
         title0:"Каталог",
         title:"A-200" ,
-        title2:"Одногловочный сварочный станок",
+        title2:"Одноголовочный сварочный станок",
         title3:"Описание",
         title4:"Технические характеристики",
         title5:"Применяется при сварке углов профилей из пвх",
@@ -92,7 +92,7 @@ function Catalog() {
             },
 ]
   return (
-    <div className='catalog-container'>
+    <div className='catalog-container' id='catalog'>
    
     {/* {arr.map((obj) =>(
         <Card

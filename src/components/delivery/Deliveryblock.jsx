@@ -5,7 +5,7 @@ import './delivery.css'
 export const Deliveryblock = () => {
     return (
         <div >
-            <div className='delivery'>
+            <div className='delivery' id='delivery'>
 
                 <div className="black-container">
                     <h2 className='h2'>Доставка</h2>
