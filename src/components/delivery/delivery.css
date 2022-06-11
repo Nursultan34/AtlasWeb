@@ -15,13 +15,13 @@
     justify-content: center;
     align-items: center;
 }
-button{
+/* button{
     border-radius: 10px;
     width: 460px;
     height: 58px;
     background-color: rgba(235, 197, 0, 1);
-} 
-h2{
+}  */
+.h2{
     text-align: center;
     color: white;
     font-family: 'Montserrat';
@@ -46,6 +46,7 @@ h2{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 32px;
+<<<<<<< HEAD
 }
 @media(max-width: 1920px){
     .black-container{
@@ -137,3 +138,10 @@ h2{
     }
    
 }
+=======
+    border-radius: 10px;
+    width: 460px;
+    height: 58px;
+    background-color: rgba(235, 197, 0, 1);
+}
+>>>>>>> 8fe754f40acb6cf1ad5f963130c7649c1de71950

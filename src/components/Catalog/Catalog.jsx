@@ -8,6 +8,7 @@ import imageUrl5 from '../../assets/image5.png'
 import ellipseUrl from '../../assets/12.png'
 import Card from './Card/Card'
 import '../../index.css'
+import CardSecond from './Card/CardSecond'
 
 
 function Catalog() {
@@ -22,7 +23,7 @@ function Catalog() {
         title6:"Можно регулировать силы сжатия углов и профилей",
         title7:"Имеется программа полного автоматического контроля",
         title8:"Имеется автоматическая регулировка времени при плавлении и остытии",
-        title9:"Стандартное напряжение",
+        title9:"",
         title10:"$1912",
         title11:"$2250",
         imageUrl:`${imageUrl}`,
@@ -93,7 +94,7 @@ function Catalog() {
   return (
     <div className='catalog-container'>
    
-    {arr.map((obj) =>(
+    {/* {arr.map((obj) =>(
         <Card
         title0={obj.title0}
         title={obj.title} 
@@ -110,7 +111,8 @@ function Catalog() {
         imageUrl={obj.imageUrl}
         ellipseUrl={obj.ellipse}
         />
-        ))}
+        ))} */}
+        <CardSecond/>
     </div>
   )
 }
