@@ -47,3 +47,93 @@ h2{
     font-weight: 500;
     font-size: 32px;
 }
+@media(max-width: 1920px){
+    .black-container{
+        align-items: center;
+    }
+    .p-desc{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width: 1440px){
+    .black-container{
+        width: 90%;
+    }
+    .p-desc{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 1024px){
+    .delivery{
+        height: 271px;
+    }
+    .p-desc{
+        font-size: 24px;
+    }
+    .delivery-button{
+        width: 232px;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 768px){
+    .delivery{
+        height: 326px;
+    }
+    .p-desc{
+        font-size: 23px;
+    }
+    .delivery-button{
+        width: 232px;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 480px){
+    .delivery{
+        height: 236px;
+    }
+    .p-desc{
+        font-size: 16px;
+        line-height: 19px;
+        margin: 10px;
+    }
+    .black-container h2{
+        font-size: 22px;
+    }
+    .delivery-button{
+        width: 180px;
+        height: 27px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 375px){
+    .delivery{
+        width: 100%;
+    }
+    .p-desc{
+        margin: 0px;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    
+    .black-container h2{
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .delivery-button{
+        font-size: 12px;
+        font-weight: 500px;
+        width: 140px;
+        height: 30px;
+        border-radius: 3px;
+    }
+   
+}

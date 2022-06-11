@@ -4,9 +4,9 @@ import './NavMenu.css'
 export const NavMenu = () => {
     return (
         <div>
+           
             <div className='nav'>
                 <div className="menu">
-
                     <li>
                         <a href='#'> Главная </a>
                     </li>

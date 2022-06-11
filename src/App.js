@@ -18,7 +18,6 @@ function App() {
       <NavMenu/>
       <Mainblack />
       <Whiteblock/>
-      <Catalog />
       <Deliveryblock/>
     </div>
 
