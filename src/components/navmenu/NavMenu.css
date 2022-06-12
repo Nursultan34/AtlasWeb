@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,200&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-
 .nav{
     width: 100%;
     height: 50px;
@@ -9,7 +8,7 @@
     align-items: center;
     font-family: 'Montserrat';
     overflow: hidden;
-    position: fixed;
+    
     z-index: 4;
      
 }
@@ -51,4 +50,66 @@ a:hover{
 }
 a:active{
     color: #fff;
+}
+@media (max-width: 1440px){
+    .nav{
+        height: 40px;
+    }
+}
+@media (max-width: 1024px) {
+  .nav{
+      width: 100%;
+      height: 40px;
+  }  
+  .menu{
+      width: 60%;
+  }
+}
+@media (max-width: 768px){
+    .nav{
+        width: 100%;
+        height: 40px;
+    }
+    .menu{
+        width: 90%;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    li{
+        padding: 0px 20px;
+    } 
+}
+@media (max-width: 480px){
+    .nav{
+        width: 100%;
+        height: 33px;
+    }
+    .menu{
+        width: 90%;
+        font-size: 10px;
+    }
+    .menu li{
+        padding: 0px 8px;
+    }
+
+}
+@media (max-width: 375px){
+    .nav{
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        max-width: 100%;
+        
+    }
+    .nav li{
+        padding: 5px;
+        border: 2px white solid;
+        background-color: rgba(235, 197, 0, 1);
+    }
+    .menu{
+        justify-content: center;
+        font-weight: 600;
+        font-size: 11px;
+        max-width: 100%;
+        line-height: 12px;
+    }
 }

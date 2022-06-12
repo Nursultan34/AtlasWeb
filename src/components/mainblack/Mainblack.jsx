@@ -6,6 +6,7 @@ import second from '../imges/2.png'
 import third from '../imges/3.png'
 import fourth from '../imges/4.png'
 import fives from '../imges/5.png'
+import oborudovanie from '../imges/oborudovanie.png'
 
 
 
@@ -20,9 +21,11 @@ export const Mainblack = () => {
             <span className='yellow-text'>Оборудование для производства окон и дверей из ПВХ и аллюминиевого профиля</span><span>— это высокое качество комплектующих, сочетающие инновационные технологии и европейское качество. Мы рады предоставить Вам лучшее оборудование мирового класса.</span>
           </div>
           <div className="img-block">
-              <div className="building">
-                <img width={530} height={380}  src={building} alt="building"/>
+              <div className="images">
+                <img className='oborudovanie480'  src={oborudovanie} alt="" />
+                <img className='building' width={530} height={380}  src={building} alt=""/>
               </div>
+
               
          
             <div className="circle-img">

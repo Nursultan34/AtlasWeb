@@ -5,74 +5,85 @@ import react from 'react-router-dom'
 
 
 function Card(props) {
+
+
   return (
-    <div className='catalog-container'>
-    <h1 className='catalog-h1'>{props.title0}</h1>
-    <div className='catalog-main'>
-      <div>
-        <div>
-        <img src={props.imageUrl} alt="#" className='catalog-img' />
+    <div className='big-block'>
+    <div className="block">
+        <div class="block-img">
+            <img src='' width={330} height={600} alt="machine" />
         </div>
-        <div>
-         <h1 className='catalog-b'>{props.title2}</h1>
-         <div>
-          <div>
-          <h2 className='catalog-a'>{props.title}</h2>
-            <h2 className='catalog-h2'>{props.title3} </h2>
-            <div className='span'>
-                <p className='p2'><img src={props.ellipseUrl} className="ellipse"></img>{props.title5}</p>
-                <p className='p3'><img src={props.ellipseUrl}  className="ellipse"></img>{props.title6}</p>
-                <p className='p4'><img src={props.ellipseUrl}   className="ellipse"></img>{props.title7}</p>
-                <p className='p5'><img src={props.ellipseUrl}  className="ellipse"></img>{props.title8}</p>
-                <p className='p6'><img src={props.ellipseUrl}  className="ellipse"></img>{props.title9}</p>
+        <div className="block-info">
+            <div className="title">
+                <p className='h1'>{props.title}</p>
+                <p className='h32'>{props.title2}</p>
+            </div>
+
+            <div className="table">
+                <div class="table1">
+                    <p>{props.title3}</p> 
+                    <table>
+                        <td>
+                            <tr><img src={ellipse} className="ellipse"></img>{props.title5}</tr>
+
+
+                            <tr> <img src={ellipse} className="ellipse"></img>{props.title6}</tr>
+
+                            <tr ><img src={ellipse} className="ellipse"></img>{props.title7}</tr>
+
+                            <tr><img src={ellipse} className="ellipse"></img>{props.title8}</tr>
+
+                        </td>
+
+                    </table>
                 </div>
-          </div>
-          <div>
-          <h2 className='catalog-2'>{props.title4}</h2>
-          <div>
-            <div className=''>
-             <tr>
-             <td className='second-block0'>Стандартное напряжение</td>
-          <td className='second-block1'>Частота  </td>
-          <td className='second-block2'>Суммарная мощность</td>
-          <td className='second-block2'>Давление воздуха   </td>
-          <td className='second-block3'>Потребление воздуха </td>
-          <td className='second-block4'>Ширина машины  </td>
-          <td className='second-block5'>Длина машины  </td>
-          <td className='second-block6'>Высота машины  </td>
-          <td className='second-block7'>Вес машины </td>
-             </tr>
-          <tr>
-          <td>220 V</td>
-          <td>50 Hz</td>
-          <td>1.5 Kw</td>
-          <td>6 bar</td>
-          <td>26 It/min</td>
-          <td>800 mm</td>
-          <td>720 mm</td>
-          <td>1450 mm</td>
-          <td>215 kg</td>
-          </tr>
-          </div>
-         </div>
-          </div>
+                <div class="table2">
+                   <p>{props.title4}</p> 
+                    <table>
+                        <tr>
+                            <td>Стандартное напряжение</td>
+                            <td>380 V</td>
+                        </tr>
+                        <tr>
+                            <td>Частота </td>
+                            <td>50 Hz</td>
+                        </tr>
+                        <tr>
+                            <td>Суммарная мощность </td>
+                            <td>1.1 Kw</td>
+                        </tr>
+                        <tr>
+                            <td>Давление воздуха </td>
+                            <td>6 bar</td>
+                        </tr>
+                        <tr>
+                            <td>Потребление воздуха </td>
+                            <td>6 It/min</td>
+                        </tr>
+                        <tr>
+                            <td>Ширина машины  </td>
+                            <td>660 mm</td>
+                        </tr>
+                        <tr>
+                            <td>Длина машины  </td>
+                            <td>800 mm</td>
+                        </tr>
+                        <tr>
+                            <td>Высота машины </td>
+                            <td>1270 mm</td>
+                        </tr>
+                        <tr>
+                            <td>Вес машины </td>
+                            <td>150 kg</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
         </div>
-        <h1 className='h22'>{props.title10}
-              <h6 ><del className='h55'>{props.title11}</del></h6>
-              <button
-              className='button-li'><a href="https://api.whatsapp.com/send?phone=996502019559" className='li'>Купить</a>
-              </button>
-          </h1>
-        </div>
-          <div>
-        </div>
-      </div>
-        
     </div>
-    <div className='line'></div>
-    
-     
-  </div>
+
+</div>
   )
 }
 

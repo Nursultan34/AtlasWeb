@@ -11,6 +11,7 @@
 }
 .about{
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 700;
@@ -19,7 +20,7 @@
 
 }
 .certificate{
-    
+
     margin-top: 50px;
     width: 100%;
 }
@@ -27,8 +28,8 @@
     margin-top: 30px;
     display: flex;
     width: 100%;
-    height: 80%;
-    text-align: center;
+    height: 70%;
+    align-items: center;
     justify-content: center;
     margin-right: 120px;
 }
@@ -47,15 +48,13 @@
     height: 450px;
     margin-top: 30px;
     margin-bottom: 70px;
-  
 }
 .company-text{
-    margin-top: 20px;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    text-align: center;
+    text-align: justify;
 }
 .certificate h2{
     text-align: center;
@@ -64,4 +63,105 @@
     font-size: 35px;
     line-height: 35px;
     color: #000000;
+}
+@media (max-width: 1920px){
+    .white-block{
+        height:1100px ;
+    }
+ }
+@media (max-width: 1440px){
+    .white-container{
+        width: 90%;
+    }
+   .white-block{
+       height:1200px ;
+   }
+}
+@media (max-width: 1024px){
+    .white-block{
+        height: 1100px;
+    }
+    .white-container{
+        width: 90%;
+    }
+    .company-text{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+@media(max-width: 768px){
+    .white-block{
+        height: 1220px;
+    }
+    .company-text{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .image{
+        width: 90%;
+        margin-right: 60px;
+    }
+}
+@media(max-width: 480px){
+    .white-block{
+        height: 1000px;
+    }
+    .about{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .company-text{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .image img{
+        width: 60%;
+        height: 60%;
+
+    }
+    .img1{
+        margin-left: 38px;
+        margin-top: 0px;
+    }
+    .img2{
+        margin-left: 35px;
+        margin-top: 0px;
+    }
+    .certificate h2{
+        font-size: 24px;
+    }
+}
+@media(max-width: 375px){
+    .white-block{
+        width: 100%;
+        height: 800px;
+    }
+   
+    .about{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .image{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .img1 {
+        margin: 19px;
+    }
+    .img2{
+        margin: 0px;
+    }
+    .company-text{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .certificate h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
 }
