@@ -1,36 +1,35 @@
 import React from 'react'
-import './Card.css'
-import image from '../../../assets/image2.png'
+import Image from '../../../assets/image4.png'
 import ellipse from '../../../assets/12.png'
 
-function CardSecond(props) {
-    return (
-        <div className='big-block'>
+function CardFive() {
+  return (
+    <div className='big-block'>
             <div className="block">
                 <div class="block-img">
-                    <img src={image} width={330} height={600} alt="machine" />
+                    <img src={Image} width={330} height={600} alt="machine" />
                 </div>
                 <div className="block-info">
                     <div className="title">
-                        <p className='h1'>A-110</p>
-                        <p className='h32'>АВТОМАТИЧЕСКИЙ СТАНОК ДЛЯ РЕЗКИ ПВХ И АЛЮМИНИЕВЫХ ПРОФИЛЕЙ<p className='p-title'> (С НИНЖЕЙ ПОДАЧЕЙ ДИСКА)</p></p>
+                        <p className='h1'>AT-550</p>
+                        <p className='h32'>ТРОЙНОЙ КОПИРОВАЛЬНО ФРЕЗЕРНЫЙ СТАНОК</p>
                     </div>
 
                     <div className="table">
-                        <div class="table1">
+                        <div class="table12">
                             <p >Описание</p> 
                             <table>
                                 <td>
-                                    <tr><img src={ellipse} className="ellipse"></img>Применяется для резки профилей из пвх и алюминия</tr>
+                                    <tr><img src={ellipse}  className="ellipse"></img>Применяется при вырезке отверстий для замков и ручек с помощью шаблона</tr>
 
 
-                                    <tr> <img src={ellipse} className="ellipse"></img>Возможна резка с поворотом на 180°</tr>
+                                    <tr> <img src={ellipse} className="ellipse"></img>Имеется стопорный механизм</tr>
 
-                                    <tr ><img src={ellipse} className="ellipse"></img>Имеется особые стопоры для углов 45°- 30° - 22,5°- 15°- 0°- 15°- 22,5°- 30°- 45°</tr>
+                                    <tr ><img src={ellipse} className="ellipse"></img>Имеется кнопка курок, без нажатия на которого сверло не вращается</tr>
 
-                                    <tr><img src={ellipse} className="ellipse"></img>Диаметр пилы 400 мм</tr>
+                                    <tr><img src={ellipse} className="ellipse"></img>Имеется система пневматического сжимания профилей</tr>
 
-                                    <tr><img src={ellipse} className="ellipse"></img>Возможна регулировка скорости поступательного движения пилы</tr>
+                                    
 
                                 </td>
 
@@ -49,7 +48,7 @@ function CardSecond(props) {
                                 </tr>
                                 <tr>
                                     <td>Суммарная мощность </td>
-                                    <td>1.1 Kw</td>
+                                    <td>1.47 Kw</td>
                                 </tr>
                                 <tr>
                                     <td>Давление воздуха </td>
@@ -57,19 +56,19 @@ function CardSecond(props) {
                                 </tr>
                                 <tr>
                                     <td>Потребление воздуха </td>
-                                    <td>6 It/min</td>
+                                    <td>2.5 It/min</td>
                                 </tr>
                                 <tr>
                                     <td>Ширина машины  </td>
-                                    <td>660 mm</td>
+                                    <td>730 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Длина машины  </td>
-                                    <td>800 mm</td>
+                                    <td>560 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Высота машины </td>
-                                    <td>1270 mm</td>
+                                    <td>1300 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Вес машины </td>
@@ -79,16 +78,17 @@ function CardSecond(props) {
                         </div>
                         
                     </div>
-                    <div className='button-block3'>
+                    <div className='button-block2'>
                             <p className='p5'>$2083</p>
                             <p className='p6'>$2450</p>
                             <button className='button2'><a href=""  className='buy'>Купить</a></button>
                         </div>
                 </div>
             </div>
+            <div className='line'></div>
 
         </div>
-    )
+  )
 }
 
-export default CardSecond
+export default CardFive;

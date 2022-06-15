@@ -1,7 +1,16 @@
 .Maps{
-    width: 1220px;
+    width: 1450px;
     height: 569.47px;
-    margin-left: 100px;
+    margin-left: 172px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
+}
+@media only screen and (max-width: 1440px) {
+    .Maps {
+        width: 1220px;
+        height: 569.47px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
