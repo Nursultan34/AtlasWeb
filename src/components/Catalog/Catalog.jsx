@@ -1,6 +1,5 @@
 import React from 'react'
 import './Catolog.css'
-import '../../index.css'
 import CardSecond from './Card/CardSecond'
 import Card from './Card/Card'
 import CardThird from './Card/CardThird'

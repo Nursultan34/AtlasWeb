@@ -105,7 +105,7 @@ table, th, td {
     height: 88px;
 }
 .table12 tr {
-    height: 88px;
+    height: 86px;
 }
 .table1 tr{
     height: 69px;
@@ -164,5 +164,10 @@ table, th, td {
     .block-img{
         width: 200px;
         height: 400px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .table12 tr{
+        height: 85px ;
     }
 }

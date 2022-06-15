@@ -76,7 +76,7 @@ function CardThirdSecond() {
                     <div className='button-block'>
                             <p className='p5'>$2083</p>
                             <p className='p6'>$2450</p>
-                            <button className='button2'><a href=""  className='buy'>Купить</a></button>
+                            <button className='button2'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
                         </div>
                 </div>
             </div>
