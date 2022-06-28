@@ -14,6 +14,11 @@
         margin-bottom: 20px;
     }
 }
+@media only screen and (max-width: 1024){
+   .Maps {
+       width: 900px;
+   }
+}
 @media only screen and (max-width: 768px) {
     .Maps {
         width: 600px;

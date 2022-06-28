@@ -25,6 +25,7 @@
     line-height: 35px;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 }
 .img-block{
     width: 45%;
@@ -36,7 +37,7 @@
 .building{
     width: 100%;
     position: relative;
-    z-index: 0;
+    z-index: 1px;
     height: auto;
     top: 80px;
     left: 40px;
@@ -76,26 +77,26 @@
 
 .pic1{
     position: relative;
-    z-index: 0;
+   
 }
 .pic2{
     position: relative;
-    z-index: 1;
+   
     right: 10px;
 }
 .pic3{
     position: relative;
-    z-index: 2;
+    
     right: 20px;
 }
 .pic4{
     position: relative;
-    z-index: 3;
+
     right: 30px;
 }
 .pic5{
     position: relative;
-    z-index: 4;
+   
     right: 40px;
 }
 @media (max-width: 1920px){
