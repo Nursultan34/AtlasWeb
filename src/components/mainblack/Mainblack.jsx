@@ -13,7 +13,7 @@ import oborudovanie from '../imges/oborudovanie.png'
 
 export const Mainblack = () => {
   return (
-    <div>
+    <div id='main'>
       <div className="black-block">
         <div className="b-container">
 
@@ -24,7 +24,7 @@ export const Mainblack = () => {
               <div className="images">
                 <img className='oborudovanie480'  src={oborudovanie} alt="" />
                 <img className='building' width={530} height={380}  src={building} alt=""/>
-              </div>
+             
 
               
          
@@ -34,6 +34,7 @@ export const Mainblack = () => {
               <img className='circle pic3' src={third} alt="" srcset="" />
               <img className='circle pic4' src={fourth} alt="" srcset="" />
               <img className='circle pic5' src={fives} alt="" srcset="" />
+            </div>
             </div>
           </div>
         </div>

@@ -118,7 +118,7 @@
         text-align: center;
     }
     .image img{
-        width: 60%;
+        width: 45%;
         height: 60%;
 
     }
@@ -147,10 +147,10 @@
     .image{
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 80%;
     }
     .img1 {
-        margin: 19px;
+        margin: 30px;
     }
     .img2{
         margin: 0px;

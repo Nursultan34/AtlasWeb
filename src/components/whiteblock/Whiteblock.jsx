@@ -1,11 +1,11 @@
 import React from 'react'
 import './Whiteblock.css'
-import certificate1 from '../imges/certificate1.jpeg'
-import certificate2 from '../imges/certificate2.jpeg'
+import certificate1 from '../../assets/sertificat1.png'
+import certificate2 from '../../assets/sertificat2.png'
 
 export const Whiteblock = () => {
   return (
-    <div className='white-block'>
+    <div className='white-block' id='whiteblock'>
       <div className="white-container">
         <div className="company">
         <div>

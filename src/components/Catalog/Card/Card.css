@@ -4,11 +4,14 @@
     padding: 0;
     font-family: 'Montserrat';
 }
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 .big-block{
-    display: flex;
-    justify-content: center;
     width: 100%;
-    height: 700px;
+    align-items: center;
 }
 .block{
     display: flex;
@@ -18,6 +21,51 @@
     display: flex;
     justify-content: center;
     width: 30%;
+}
+.button-block{
+    display: flex;
+    margin-top: 140px;
+}
+.button-block2{
+    display: flex;
+    margin-top: 55px;
+}
+.buy{
+    font-size: 27px;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.button2{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #EBC500;
+    border: none;
+    margin-left: 10px;
+   
+}
+.p6{
+    text-decoration: line-through ;
+    color: #A0A0A0;
+}
+.line{
+    border-bottom: 1px solid #A0A0A0;
+    margin-top: 50px;
+    width: 1445px;
+    margin-left: 45px;
+}
+.button-block3{
+    display: flex;
+    margin-top: 5px;
+}
+.p5{
+    font-size: 35px;
+    line-height: 30px;
+    margin-right: 10px;
+    color:  #F00000;
+    font-weight: 700;
 }
 .block-info{
     display: flex;
@@ -32,20 +80,41 @@ table, th, td {
     border: 1px solid rgb(116, 116, 116);
     
 }
-
 .table{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-left: 20px;
 }
 .table1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 43%;
+    font-size: 17px;
+}
+.table12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 43%;
+    font-size: 19px;
+}
+.table13{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 43%;
+    font-size: 19px;
+}
+.table13 tr{
+    height: 88px;
+}
+.table12 tr {
+    height: 86px;
 }
 .table1 tr{
-    height: 59px;
+    height: 69px;
 }
 .table2{
     display: flex;
@@ -53,7 +122,10 @@ table, th, td {
     width: 53%;
 }
 .table2 td{
-    height: 32px;
+    height: 37px;
+}
+.table2{
+    height: 60px;
 }
 .h1{
     color: #EBC500;
@@ -70,4 +142,39 @@ table, th, td {
 .p-title{
     font-size: 28px;
     font-weight: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .table {
+        display: block;
+    }
+    .table12{
+        width: 500px;
+        margin-left: 70px;
+       
+    }
+    
+    .table2{
+        width: 500px;
+        margin-left: 70px;
+        margin-bottom: 90px;
+    }
+    .title{
+        margin-left: 70px;
+        float: left;
+    }
+
+    .button-block2{
+        justify-content: left;
+
+    }
+    .block-img{
+        width: 200px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .table12 tr{
+        height: 85px ;
+    }
 }

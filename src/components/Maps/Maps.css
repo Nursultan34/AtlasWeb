@@ -1,7 +1,35 @@
 .Maps{
-    width: 1400px;
-    height: 569.47px;;
-    margin-left: 200px;
-    margin-top: 20px ;
-    margin-bottom: 20px;
+    width: 1450px;
+    height: 569.47px;
+    margin-left: 172px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+@media only screen and (max-width: 1440px) {
+    .Maps {
+        width: 1220px;
+        height: 569.47px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1024){
+   .Maps {
+       width: 900px;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .Maps {
+        width: 600px;
+        height: 500px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .Maps{
+        width: 335px;
+        height: 200px;
+        margin-left: 100px;
+    }
 }
