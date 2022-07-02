@@ -17,7 +17,7 @@ export default function Headfoot() {
 					<div className="header__contact contact-header">
 						<div className="contact-header__item">
 							<img src={tel} alt="tel" />
-							<img src={whatsapp} alt="whatsapp" />
+							<a  target='_blank' href="https://api.whatsapp.com/send?phone=996502019559" ><img src={whatsapp} alt="whatsapp" /></a>
 							<span>+996 502 01 95 59</span>
 						</div>
 						<div className="contact-header__item">
