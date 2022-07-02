@@ -6,6 +6,7 @@ import ellipse from '../../../assets/12.png'
 function CardSecond(props) {
     return (
         <div className='big-block'>
+                        <h1>Каталог</h1>
             <div className="block">
                 <div class="block-img">
                     <img src={image} width={330} height={600} alt="machine" />

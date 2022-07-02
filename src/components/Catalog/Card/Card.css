@@ -4,8 +4,14 @@
     padding: 0;
     font-family: 'Montserrat';
 }
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 .big-block{
-margin: 40px;
+    width: 100%;
+    align-items: center;
 }
 .block{
     display: flex;
