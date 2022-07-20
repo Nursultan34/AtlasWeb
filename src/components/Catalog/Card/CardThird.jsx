@@ -4,15 +4,15 @@ import ellipse from '../../../assets/12.png'
 
 function CardThird() {
   return (
-    <div className='big-block'>
+    <div className='big-block6'>
             <div className="block">
-                <div class="block-img">
-                    <img src={ImageUrl} width={330} height={600} alt="machine" />
+                <div class="block-img4">
+                    <img src={ImageUrl} width={330} height={600} alt="machine" className='photo4' />
                 </div>
                 <div className="block-info">
                     <div className="title">
-                        <p className='h1'>A-200</p>
-                        <p className='h32'>Одноголовочный сварочный станок</p>
+                        <p className='h1'>A-410</p>
+                        <p className='h32'>СТАНОК АВТОМАТ ДЛЯ ОБРАБОТКИ ТОРЦА ИМПОСТА</p>
                     </div>
 
                     <div className="table">
@@ -73,10 +73,10 @@ function CardThird() {
                         </div>
                         
                     </div>
-                    <div className='button-block'>
-                            <p className='p5'>$2083</p>
-                            <p className='p6'>$2450</p>
-                            <button className='button2'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
+                    <div className='button-block10'>
+                            <p className='p5-10'>$2083</p>
+                            <p className='p6-10'>$2450</p>
+                            <button className='button2-10'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
                         </div>
                          
                 </div>

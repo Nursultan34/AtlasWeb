@@ -2,3 +2,22 @@ body{
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-x: hidden;
+}
+.button-modal{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    right: -50rem;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 480px) {
+ .App {
+    width: 480px;
+    height: 4520px;
+ }
+}

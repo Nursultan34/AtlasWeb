@@ -1,180 +1,552 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat';
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  position: relative;
 }
-h1{
-    text-align: center;
-    margin-bottom: 50px;
-
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }
-.big-block{
-    width: 100%;
-    align-items: center;
+.big-block {
+  width: 100%;
+  align-items: center;
 }
-.block{
-    display: flex;
-    width: 85%;
+.block {
+  display: flex;
+  width: 85%;
 }
-.block-img{
-    display: flex;
-    justify-content: center;
-    width: 30%;
+.block-img,
+.block-img2,
+.block-img3,
+.block-img4,
+.block-img5 {
+  display: flex;
+  justify-content: center;
+  width: 30%;
 }
-.button-block{
-    display: flex;
-    margin-top: 140px;
+.button-block {
+  display: flex;
+  margin-top: 140px;
 }
-.button-block2{
-    display: flex;
-    margin-top: 55px;
+.button-block2 {
+  display: flex;
+  margin-top: 55px;
 }
-.buy{
-    font-size: 27px;
-    line-height: 20px;
-    text-decoration: none;
-    color: black;
-    
+.buy {
+  font-size: 27px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
 }
-.button2{
-    width: 140px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #EBC500;
-    border: none;
-    margin-left: 10px;
-   
+.button2,
+.button23,
+.button2-10,
+.button25 {
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ebc500;
+  border: none;
+  margin-left: 10px;
 }
-.p6{
-    text-decoration: line-through ;
-    color: #A0A0A0;
+.p6,
+.p6-3,
+.p6-2,
+.p6-10,
+.p6-1 {
+  text-decoration: line-through;
+  color: #a0a0a0;
 }
-.line{
-    border-bottom: 1px solid #A0A0A0;
-    margin-top: 50px;
-    width: 1445px;
-    margin-left: 45px;
+.line,
+.line2 {
+  border-bottom: 1px solid #a0a0a0;
+  margin-top: 40px;
+  width: 1445px;
+  margin-left: 45px;
+  top: -20px;
 }
-.button-block3{
-    display: flex;
-    margin-top: 5px;
+.button-block3 {
+  display: flex;
+  margin-top: 52px;
 }
-.p5{
-    font-size: 35px;
-    line-height: 30px;
-    margin-right: 10px;
-    color:  #F00000;
-    font-weight: 700;
+.button-block4{
+  display: flex;
+  margin-top: 5px;
 }
-.block-info{
-    display: flex;
-    width: 70%;
-    flex-direction: column;
+.p5,
+.p5-3,
+.p5-10,
+.p5-1 {
+  font-size: 35px;
+  line-height: 30px;
+  margin-right: 10px;
+  color: #f00000;
+  font-weight: 700;
+}
+.block-info {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
 }
 table {
-    border-collapse: collapse;
-   
+  border-collapse: collapse;
 }
-table, th, td {
-    border: 1px solid rgb(116, 116, 116);
-    
+table,
+th,
+td {
+  border: 1px solid rgb(116, 116, 116);
 }
-.table{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-left: 20px;
+.table {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
 }
-.table1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 43%;
-    font-size: 17px;
+.table1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 43%;
+  font-size: 17px;
 }
-.table12 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 43%;
-    font-size: 19px;
+.table12,
+.table23 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 43%;
+  font-size: 19px;
 }
-.table13{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 43%;
-    font-size: 19px;
+.table23 tr {
+  height: 38px;
 }
-.table13 tr{
-    height: 88px;
+.button-block8,.button-block10{
+  display: flex;
+  margin-top: 133px;
+}
+.contact-header__ite2 img {
+  top: 5px;
+}
+.contact-header__ite2 span {
+  top: -17px;
+}
+.contact-header__ite3 span {
+  top: -10px;
+}
+.contact-header__ite3 img {
+  top: -3px;
+}
+.table13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 43%;
+  font-size: 19px;
+}
+.table13 tr {
+  height: 88px;
 }
 .table12 tr {
-    height: 86px;
+  height: 86px;
 }
-.table1 tr{
-    height: 69px;
+.table1 tr {
+  height: 69px;
 }
-.table2{
-    display: flex;
-    flex-direction: column;
-    width: 53%;
+.table2 {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
 }
-.table2 td{
-    height: 37px;
+.table3 {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
 }
-.table2{
-    height: 60px;
+.table3 td {
+  height: 37px;
 }
-.h1{
-    color: #EBC500;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 35px;
+.table2 td {
+  height: 37px;
+}
+.table2 {
+  height: 60px;
+}
+.h1 {
+  color: #ebc500;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+}
+.h32 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+}
+.p-title {
+  font-size: 28px;
+  font-weight: 100px;
+}
 
-}
-.h32{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-}
-.p-title{
-    font-size: 28px;
-    font-weight: 100px;
-}
-
-@media only screen and (max-width: 768px) {
-    .table {
-        display: block;
-    }
-    .table12{
-        width: 500px;
-        margin-left: 70px;
-       
-    }
-    
-    .table2{
-        width: 500px;
-        margin-left: 70px;
-        margin-bottom: 90px;
-    }
-    .title{
-        margin-left: 70px;
-        float: left;
-    }
-
-    .button-block2{
-        justify-content: left;
-
-    }
-    .block-img{
-        width: 200px;
-        height: 400px;
-    }
-}
 @media only screen and (max-width: 1440px) {
-    .table12 tr{
-        height: 85px ;
-    }
+  .table12 tr {
+    height: 85px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .block-info {
+    margin-left: 50px;
+  }
+  .table1,
+  .table13,
+  .table12 {
+    width: 565px;
+  }
+  .table2 {
+    width: 653px;
+    height: 200px;
+
+    position: relative;
+    right: -75px;
+  }
+  .table12 {
+    width: 92%;
+
+    position: relative;
+    top: -5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .table {
+    display: block;
+  }
+  .p6-10 {
+    position: relative;
+    right: 10rem;
+    top: -4rem;
+  }
+  .button25 {
+    position: relative;
+    top: -3.5rem;
+    right: 13rem;
+  }
+  .p5-1,
+  .p6-1 {
+    position: relative;
+    top: -7rem;
+  }
+  .button2-10 {
+    position: relative;
+    top: -3.5rem;
+    right: 18rem;
+  }
+  .p6-2 {
+    position: relative;
+    top: -2.2rem;
+    right: 1rem;
+  }
+  .p5-10 {
+    position: relative;
+    top: -1.5rem;
+    right: 18rem;
+  }
+  .photo4 {
+    width: 376.4px;
+    height: 513.34px;
+    position: relative;
+    top: 3rem;
+  }
+  .table13 {
+    width: 508px;
+    position: relative;
+    top: -5rem;
+  }
+  .table12 {
+    width: 500px;
+    margin-left: 70px;
+  }
+  .table13 tr {
+    height: 65px;
+  }
+  .table3 td {
+    height: 33px;
+  }
+
+  .table3,
+  .table23 {
+    width: 505px;
+    height: 268px;
+    position: relative;
+    top: -4rem;
+    right: -0.2rem;
+
+    margin-bottom: 90px;
+  }
+  .table2 {
+    width: 505px;
+    height: 268px;
+    position: relative;
+    top: -4rem;
+    right: -0.2rem;
+  }
+  .table1 {
+    width: 504px;
+  }
+  .table3 {
+    position: relative;
+    top: 1rem;
+  }
+  .title {
+    margin-left: 70px;
+    float: left;
+  }
+
+  .button-block {
+    top: -13rem;
+  }
+  .bb .block-img {
+    width: 200px;
+    height: 400px;
+  }
+  .line {
+    position: relative;
+    top: -6rem;
+    width: 814px;
+    right: 5rem;
+    height: 2px;
+  }
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo5 {
+    width: 376.4px;
+    height: 513.34px;
+    position: relative;
+    top: 40px;
+  }
+  .photo2 {
+    top: 8rem;
+  }
+  .button-block8 {
+    position: relative;
+    right: 17rem;
+  }
+  .p6 {
+    top: -99px;
+    right: -110px;
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .button23 {
+    position: relative;
+    top: -6rem;
+    right: 10px;
+  }
+  .photo5 {
+    top: 3rem;
+  }
+  .button-block8 .photo2 {
+    top: 7.5rem;
+  }
+  .table12 {
+    position: relative;
+    top: -4rem;
+    right: 4rem;
+  }
+  .h1 {
+    position: relative;
+    top: -70px;
+    right: 351px;
+  }
+
+  .p6-3 {
+    position: relative;
+    top: -39px;
+    right: 10px;
+  }
+  .p5-3 {
+    position: relative;
+    top: -30px;
+  }
+  .button2,
+  .button-block3 {
+    position: relative;
+    right: 14rem;
+    top: 2rem;
+  }
+  .button-block3,
+  .button-block {
+    right: 18rem;
+    top: -10rem;
+  }
+  .button-block2 {
+    top: -13rem;
+    right: 17rem;
+    position: relative;
+  }
+  .big-block3,
+  .big-block {
+    margin-left: 80px;
+  }
+  .block-img {
+  }
+  .h32 {
+    width: 708px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    position: relative;
+    top: -65px;
+    right: 22.6rem;
+  }
+  .table1 {
+  }
+  .p5 {
+    position: relative;
+    right: 1rem;
+    top: -2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+
+  .photo1,
+  .photo2,.photo5,.photo3,.photo4 {
+    width: 256.4px;
+    height: 363.34px;
+    margin-top: 15px;
+    margin-left: -26px;
+  }
+  .button-block8,.button-block10{
+    top: -11rem;
+    margin-left: 50px;
+  }
+  .big-block3{
+    margin-left: 100px;
+  }
+  .button2-10{
+    top: -7rem;
+    right: 4rem;
+  }
+  .button-block3{
+    right: 20rem;
+  }
+  
+  .table12,
+  .table23,
+  .table3,.table13,.table2 {
+    width: 350px;
+    height: 269px;
+  }
+  .table1 {
+    width: 340px;
+    height: 220px;
+  }
+  .big-block6{
+    margin-left: 90px;
+  }
+  .photo2 {
+    top: 7rem;
+  }
+  .pm{
+    top: 1rem;
+  }
+  .table23,
+  .table3,.table2{
+    top: -21rem;
+    right: -23rem;
+  }
+  
+  .table3 {
+    top: -13.5rem;
+    height: 300px;
+  }
+  .big-block {
+    margin-top: -220px;
+    margin-bottom: 160px;
+  }
+  .title-1 {
+    margin-left: 50px;
+  }
+  .p-title {
+  }
+  .button-block3 {
+    margin-left: 50px;
+  }
+  .line2 {
+    top: -10rem;
+    right: 7rem;
+  }
+  .button2 {
+    top: -2rem;
+    right: -1rem;
+  }
+  .button23{
+    top: -10rem;
+    right: -13rem;
+  }
+  .line {
+    top: -20rem;
+    right: 10rem;
+  }
+  .big-block5{
+    top: -25rem;
+    margin-left: 80px;
+  }
+  .button-block2{
+    margin-left: 60px;
+    top: -14rem;
+  }
+  .h1 {
+    right: 6rem;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 37px;
+    width: 133px;
+    height: 37px;
+  }
+  .h32 {
+    width: 510px;
+    height: 48px;
+    margin-left: 90px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .h1-catalog {
+    position: relative;
+    top: -3rem;
+    right: -20px;
+  }
+  .table12 {
+    margin-left: 50px;
+  }
+  .p5-1 {
+    position: relative;
+    top: -7.5rem;
+    right: -3.5rem;
+  }
+.big-block6{
+  top: -40rem;
+}
+  .p6-1 {
+    position: relative;
+    top: -8rem;
+    right: -3rem;
+  }
+  .button25 {
+    position: relative;
+    top: -7.5rem;
+    right: -4rem;
+    width: 50%;
+  }
+  .buy {
+  }
 }

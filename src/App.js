@@ -14,20 +14,22 @@ import Footer from './components/footer/Footer';
 
 
 
+
 function App() {
+ const [data,setData] = React.useState(null)
+
+ React.useEffect(() => {
+  fetch('/')
+ },[])
   return (
-    <div >
-    
+    <div className='App'>
       <Headfoot/>
       <Mainblack/>
       <Whiteblock/>
-      <CardSecond/>
       <Catalog/>
       <Deliveryblock/>
       <Maps/>
       <Footer/>
-    
-
     </div>
 
 

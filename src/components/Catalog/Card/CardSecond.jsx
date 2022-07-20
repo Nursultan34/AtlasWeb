@@ -3,16 +3,16 @@ import './Card.css'
 import image from '../../../assets/image2.png'
 import ellipse from '../../../assets/12.png'
 
-function CardSecond(props) {
+function CardSecond() {
     return (
         <div className='big-block'>
-                        <h1>Каталог</h1>
+                     
             <div className="block">
-                <div class="block-img">
-                    <img src={image} width={330} height={600} alt="machine" />
+                <div class="block-img3">
+                    <img src={image} width={330} height={600} alt="machine"  className='photo2'/>
                 </div>
                 <div className="block-info">
-                    <div className="title">
+                    <div className="title-1">
                         <p className='h1'>A-110</p>
                         <p className='h32'>АВТОМАТИЧЕСКИЙ СТАНОК ДЛЯ РЕЗКИ ПВХ И АЛЮМИНИЕВЫХ ПРОФИЛЕЙ<p className='p-title'> (С НИНЖЕЙ ПОДАЧЕЙ ДИСКА)</p></p>
                     </div>
@@ -37,7 +37,7 @@ function CardSecond(props) {
 
                             </table>
                         </div>
-                        <div class="table2">
+                        <div class="table3">
                            <p>Технические характеристики</p> 
                             <table>
                                 <tr>
@@ -80,14 +80,14 @@ function CardSecond(props) {
                         </div>
                         
                     </div>
-                    <div className='button-block3'>
-                            <p className='p5'>$2083</p>
-                            <p className='p6'>$2450</p>
+                    <div className='button-block4'>
+                            <p className='p5-3'>$2083</p>
+                            <p className='p6-3'>$2450</p>
                             <button className='button2'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
                         </div>
                 </div>
             </div>
-
+            <div className='line2'></div>
         </div>
     )
 }

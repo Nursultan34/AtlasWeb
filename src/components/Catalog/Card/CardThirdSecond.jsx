@@ -6,18 +6,18 @@ function CardThirdSecond() {
   return (
     <div className='big-block'>
             <div className="block">
-                <div class="block-img">
-                    <img src={ImageUrl} width={330} height={600} alt="machine" />
+                <div class="block-img5">
+                    <img src={ImageUrl} width={330} height={600} alt="machine" className='photo5'/>
                 </div>
                 <div className="block-info">
                     <div className="title">
-                        <p className='h1'>A-200</p>
-                        <p className='h32'>Одноголовочный сварочный станок</p>
+                        <p className='h1'>A-410</p>
+                        <p className='h32'>СТАНОК АВТОМАТ ДЛЯ ОБРАБОТКИ ТОРЦА ИМПОСТА</p>
                     </div>
 
                     <div className="table">
                         <div class="table13">
-                            <p >Описание</p> 
+                            <p className='pm'>Описание</p> 
                             <table>
                                 <td className='td'> 
                                     <tr><img src={ellipse} className="ellipse"></img>Пневматическое движение с кнопочным контролем</tr>
@@ -73,15 +73,15 @@ function CardThirdSecond() {
                         </div>
                         
                     </div>
-                    <div className='button-block'>
+                    <div className='button-block8'>
                             <p className='p5'>$2083</p>
                             <p className='p6'>$2450</p>
-                            <button className='button2'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
+                            <button className='button23'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
                         </div>
                 </div>
             </div>
             
-
+            <div className='line'></div>
         </div>
   )
 }

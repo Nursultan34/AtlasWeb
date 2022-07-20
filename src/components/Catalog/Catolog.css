@@ -67,7 +67,7 @@ p{
     width: 50%;
 }
 .span2{
-    width: 50%;
+    width: 76%;
     float: right;
     
 }
@@ -109,4 +109,8 @@ p{
 }
 .h22{
     color: #F00000;
+}
+.aibolit{
+    width: 100px;
+    height: 40px;
 }

@@ -7,12 +7,26 @@ export const NavMenu = () => {
            
             <div className='nav'>
                 <div className="menu">
-                        <a className='a' href='#main'> Главная </a>
-                        <a className='a'  href='#catalog'>Каталог</a>
-                        <a className='a'  href='#delivery'>Доставка</a>
-                        <a className='a'  href='#whiteblock'>О компании</a>
-                        <a className='a'href='#header'>Контакты</a>
+                      <ul>
+                      <li>
+                       <a className='a' href='#main'> Главная </a>
 
+                       </li>
+                       <li>
+                           <a className='a'  href='#catalog'>Каталог</a>
+                        </li>
+                        <li>
+                        <a className='a'  href='#delivery'>Доставка</a>
+                        
+                        </li>
+                        <li>
+                        <a className='a'  href='#whiteblock'>О компании</a>
+                        
+                        </li>
+                        <li>
+                        <a className='a'href='#header'>Контакты</a>
+                        </li>
+                      </ul>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
 	
 }
 
-.container2 {
+.container3 {
 	width: 100%;
 	max-width: 1630px;
 	margin: 0 auto;
@@ -41,7 +41,7 @@
 	column-gap: 45px;
 }
 
-.contact-header {}
+
 
 .contact-header__item {
 	display: flex;
@@ -93,8 +93,15 @@
 	.header__social {
 		column-gap: 15px;
 	}
+	.span-3{
+		position: relative;
+	}
 }
-
+@media (max-width: 1024px){
+	.in{
+		width: 40%;
+	}
+ }
 @media (max-width: 890px) {
 	.contact-header__item {
 		font-family: 'Montserrat';
@@ -110,10 +117,20 @@
 @media (max-width: 768px) {
 	.contact-header__item {
 		align-items: flex-end;
+		
 	}
 
 	.contact-header__item img {
 		align-self: center;
+	}
+	
+	.span-footer{
+		position: relative;
+		top: 1rem;
+	}
+	.span-3{
+		position: relative;
+		top: -1rem;
 	}
 
 	.header__inner {

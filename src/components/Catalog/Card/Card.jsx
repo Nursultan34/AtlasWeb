@@ -8,10 +8,11 @@ import imageUrl2 from '../../../assets/image2.png'
 
 function Card() {
   return (
-    <div className='big-block'>
+    <div className='big-block3'>
             <div className="block">
+            
                 <div class="block-img">
-                    <img src={imageUrl1} width={330} height={600} alt="machine" />
+                    <img src={imageUrl1} width={330} height={600} alt="machine" className='photo1' />
                 </div>
                 <div className="block-info">
                     <div className="title">
@@ -39,7 +40,7 @@ function Card() {
 
                             </table>
                         </div>
-                        <div class="table2">
+                        <div class="table23">
                            <p>Технические характеристики</p> 
                             <table>
                                 <tr>
@@ -82,10 +83,10 @@ function Card() {
                         </div>
                         
                     </div>
-                    <div className='button-block2'>
-                            <p className='p5'>$2083</p>
-                            <p className='p6'>$2450</p>
-                            <button className='button2'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
+                    <div className='button-block3'>
+                            <p className='p5-1'>$2083</p>
+                            <p className='p6-1'>$2450</p>
+                            <button className='button25'><a href="https://api.whatsapp.com/send?phone=996502019559"  className='buy'>Купить</a></button>
                         </div>
                 </div>
             </div>
